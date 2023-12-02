@@ -123,7 +123,8 @@ function tebakAngka() {
       if (p === c) {
         hasil = 'BENAR';
         alert('Anda ' + hasil + ' angka yang anda tebak adalah ' + c);
-        break;
+        confirm = parseInt(prompt("Pilih program:\n1. ATM\n2. Game tebak angka\n3. Ganjil / genap\n4. Suwit"));
+        loop();
       } else if (p < c) {
         hasil = 'RENDAH';
         chance -= 1;
