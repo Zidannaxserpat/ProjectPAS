@@ -136,6 +136,8 @@ function tebakAngka() {
 
       if (chance === 0) {
         alert('Anda gagal, angka yang benar adalah ' + c);
+        confirm = parseInt(prompt("Pilih program:\n1. ATM\n2. Game tebak angka\n3. Ganjil / genap\n4. Suwit"));
+        loop();
       }
     }
     ulang = confirm('Mau ulang ga?');
